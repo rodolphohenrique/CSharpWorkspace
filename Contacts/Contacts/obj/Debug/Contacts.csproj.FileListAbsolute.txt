@@ -1,0 +1,12 @@
+c:\users\henrique\documents\visual studio 2013\Projects\Contacts\Contacts\bin\Debug\Contacts.exe.config
+c:\users\henrique\documents\visual studio 2013\Projects\Contacts\Contacts\bin\Debug\Contacts.exe
+c:\users\henrique\documents\visual studio 2013\Projects\Contacts\Contacts\bin\Debug\Contacts.pdb
+c:\users\henrique\documents\visual studio 2013\Projects\Contacts\Contacts\obj\Debug\Contacts.csprojResolveAssemblyReference.cache
+c:\users\henrique\documents\visual studio 2013\Projects\Contacts\Contacts\obj\Debug\Contacts.Form1.resources
+c:\users\henrique\documents\visual studio 2013\Projects\Contacts\Contacts\obj\Debug\Contacts.Properties.Resources.resources
+c:\users\henrique\documents\visual studio 2013\Projects\Contacts\Contacts\obj\Debug\Contacts.csproj.GenerateResource.Cache
+c:\users\henrique\documents\visual studio 2013\Projects\Contacts\Contacts\obj\Debug\Contacts.exe
+c:\users\henrique\documents\visual studio 2013\Projects\Contacts\Contacts\obj\Debug\Contacts.pdb
+C:\Users\Henrique\Documents\Visual Studio 2013\Projects\Contacts\Contacts\bin\Debug\Contact.sdf
+C:\Users\Henrique\Documents\Visual Studio 2013\Projects\Contacts\Contacts\bin\Debug\EntityFramework.dll
+C:\Users\Henrique\Documents\Visual Studio 2013\Projects\Contacts\Contacts\bin\Debug\EntityFramework.xml
