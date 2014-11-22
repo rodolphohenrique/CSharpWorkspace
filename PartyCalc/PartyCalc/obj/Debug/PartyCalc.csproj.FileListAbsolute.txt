@@ -1,0 +1,9 @@
+H:\CSharpWorkspace\PartyCalc\PartyCalc\bin\Debug\PartyCalc.exe.config
+H:\CSharpWorkspace\PartyCalc\PartyCalc\bin\Debug\PartyCalc.exe
+H:\CSharpWorkspace\PartyCalc\PartyCalc\bin\Debug\PartyCalc.pdb
+H:\CSharpWorkspace\PartyCalc\PartyCalc\obj\Debug\PartyCalc.csprojResolveAssemblyReference.cache
+H:\CSharpWorkspace\PartyCalc\PartyCalc\obj\Debug\PartyCalc.Form1.resources
+H:\CSharpWorkspace\PartyCalc\PartyCalc\obj\Debug\PartyCalc.Properties.Resources.resources
+H:\CSharpWorkspace\PartyCalc\PartyCalc\obj\Debug\PartyCalc.csproj.GenerateResource.Cache
+H:\CSharpWorkspace\PartyCalc\PartyCalc\obj\Debug\PartyCalc.exe
+H:\CSharpWorkspace\PartyCalc\PartyCalc\obj\Debug\PartyCalc.pdb

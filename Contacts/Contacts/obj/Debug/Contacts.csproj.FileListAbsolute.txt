@@ -10,3 +10,6 @@ c:\users\henrique\documents\visual studio 2013\Projects\Contacts\Contacts\obj\De
 C:\Users\Henrique\Documents\Visual Studio 2013\Projects\Contacts\Contacts\bin\Debug\Contact.sdf
 C:\Users\Henrique\Documents\Visual Studio 2013\Projects\Contacts\Contacts\bin\Debug\EntityFramework.dll
 C:\Users\Henrique\Documents\Visual Studio 2013\Projects\Contacts\Contacts\bin\Debug\EntityFramework.xml
+H:\CSharpWorkspace\Contacts\Contacts\bin\Debug\Contacts.exe.config
+H:\CSharpWorkspace\Contacts\Contacts\obj\Debug\Contacts.exe
+H:\CSharpWorkspace\Contacts\Contacts\obj\Debug\Contacts.pdb
