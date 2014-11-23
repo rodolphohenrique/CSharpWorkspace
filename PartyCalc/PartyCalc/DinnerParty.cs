@@ -9,31 +9,41 @@ namespace PartyCalc
     public class DinnerParty
     {
 
-        public const int costOfFoodPerPerson = 25;
-        public int numberOfPeople;
-        public decimal costOfBevereagesPerPerson;
-        public decimal costOfDecorations;
+        public const int costOfFoodPerPerson = 25;  
+        protected bool healthy { get; set; }
+        protected bool fancy { get; set; }
+        protected int numberOfPeople { get; set; }
 
-        public DinnerParty()
+        public DinnerParty() { }
+
+        public DinnerParty(int numberOfPeople, bool fancy, bool healthy)
         {
+            this.fancy = fancy;
+            this.healthy = healthy;
+            this.numberOfPeople = numberOfPeople;
         }
 
-        public void CalculateCostOfDecoration(bool fancyDecoration)
+        private decimal CalculateCostOfDecoration()
         {
-            if (fancyDecoration)
+            decimal decorationTotalCost;
+            
+            if (this.fancy)
             {
-                costOfDecorations = 50 + (numberOfPeople * 15);
+                decorationTotalCost = 50 + (this.numberOfPeople * 15);
             }
             else
             {
-                costOfDecorations = 30 + (numberOfPeople * 7.5M);
+                decorationTotalCost = 30 + (this.numberOfPeople * 7.5M);
             }
+
+            return decorationTotalCost;
 
         }
 
-        public void setHealthyOption(bool healthy)
+        private decimal setHealthyOption()
         {
-            if (healthy)
+            decimal costOfBevereagesPerPerson;
+            if (this.healthy)
             {
                 costOfBevereagesPerPerson = 5M;
             }
@@ -41,25 +51,23 @@ namespace PartyCalc
             {
                 costOfBevereagesPerPerson = 20M;
             }
+
+            return costOfBevereagesPerPerson * this.numberOfPeople;
+            
         }
 
         public decimal CalculateCost()
         {
+
             decimal cost;
 
-            cost = costOfFoodPerPerson * numberOfPeople;
-
-            if (costOfBevereagesPerPerson == 5)
-            {
-                cost += costOfBevereagesPerPerson * numberOfPeople;
-                cost = cost * 0.95M;
-            }
-            else
-            {
-                cost += costOfBevereagesPerPerson * numberOfPeople;
-            }
+            cost = costOfFoodPerPerson * this.numberOfPeople;
+            cost += setHealthyOption();
+            cost += CalculateCostOfDecoration();
 
             return cost;
         }
+
+        
     }
 }
