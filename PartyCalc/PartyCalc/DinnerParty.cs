@@ -23,7 +23,7 @@ namespace PartyCalc
             this.numberOfPeople = numberOfPeople;
         }
 
-        private decimal CalculateCostOfDecoration()
+        protected decimal CalculateCostOfDecoration()
         {
             decimal decorationTotalCost;
             
@@ -40,7 +40,7 @@ namespace PartyCalc
 
         }
 
-        private decimal setHealthyOption()
+        protected decimal setHealthyOption()
         {
             decimal costOfBevereagesPerPerson;
             if (this.healthy)

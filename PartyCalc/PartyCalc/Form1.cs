@@ -72,6 +72,16 @@ namespace PartyCalc
             DisplayDinnerPartyCost();
         }
 
+        private void tabBirthdayParty_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabDinnerParty_Click(object sender, EventArgs e)
+        {
+
+        }
+
 
 
 
